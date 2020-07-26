@@ -1,5 +1,5 @@
 const root = document.querySelector('#root')
-const textTitle = 'Dificuldade'
+const textTitle = 'Difficult'
 
 const title = Title`
     color: #82589F; 
@@ -7,9 +7,8 @@ const title = Title`
     letter-spacing: 1.2px;
     margin-bottom: 4rem;
     ${textTitle}
-    ${textSmall}
-    ${otherText}
 `
 
 root.insertAdjacentHTML('beforeend', title)
 root.insertAdjacentHTML('beforeend', wrapperCharacters)
+root.insertAdjacentHTML('beforeend', slide)

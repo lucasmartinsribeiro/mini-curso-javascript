@@ -1,5 +1,11 @@
 const css = `
 <style>
+    :root{
+        --line-height: 10px;
+        --happy-color: #EAB543;
+        --action-color: #F8EFBA;
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -13,9 +19,12 @@ const css = `
         height: 100vh;
         background-color: #2C3A47;
     }
-
+    
     #root {
-        box - sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
         font-family: 'Press Start 2P', cursive;
         background-color: #3B3B98;
         width: 40vw;
@@ -23,9 +32,10 @@ const css = `
         height: 65vh;
         text-align: center;
         padding-top: 4rem;
+        padding-bottom: 2rem;
     }
-</style>`
+    </style>`
 
-const head = document.querySelector('head')
+    const head = document.querySelector('head')
 
-head.insertAdjacentHTML('beforeend', css)
+    head.insertAdjacentHTML('beforeend', css)

@@ -1,4 +1,4 @@
-const pathGueio = 'images/gueio.png'
+const pathGueio = 'images/panda.jpg'
 const gueio = Character`
     width: 18%;
     ${pathGueio}
